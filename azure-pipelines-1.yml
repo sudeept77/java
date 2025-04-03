@@ -22,6 +22,3 @@ stages:
           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
           ArtifactName: 'drop'
           publishLocation: 'Container'
-      - bash: echo "Checking if artifact container 'drop' exists..."
-      - bash: ls -R $(Build.ArtifactStagingDirectory)
-        displayName: "List Published Artifact Contents"

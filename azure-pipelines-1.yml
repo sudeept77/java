@@ -22,7 +22,6 @@ stages:
       steps:
       - bash: echo Dev Second Job
 - stage: QADeploy
-  dependsOn: Build
   jobs:
     - job: QAJob
       steps:

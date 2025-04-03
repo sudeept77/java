@@ -23,4 +23,3 @@ stages:
           ArtifactName: 'drop'
           publishLocation: 'Container'
       - bash: ls -R $(Build.ArtifactStagingDirectory)
-      - bash: ls -R $(Build.ArtifactName)

@@ -22,5 +22,5 @@ stages:
           PathtoPublish: '$(Build.ArtifactStagingDirectory)'
           ArtifactName: 'drop'
           publishLocation: 'Container'
-      - bash: echo "Artifact Name:$(Build.ArtifactStagingDirectory)"
+      - bash: echo "Artifact Name:$(publishlcation)"
         displayName: "Show Artifact Name"
